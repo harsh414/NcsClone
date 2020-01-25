@@ -1,0 +1,301 @@
+
+
+#id1{
+	margin-top: 35px;
+}
+
+#c1{
+	height: 500px;
+	margin-top:3rem;
+	display: flex;
+	flex-direction: column;
+    flex:1;
+	align-items: center;
+	border-radius: 12px;
+}
+
+#rowMine{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 3rem;
+	padding-right: 3rem;
+
+
+}
+
+#c3,#c4,#c5{
+	box-shadow: 1px 1px 2px 1px gray;
+    width: 27%;
+    margin-left: 1rem;
+	height: auto;
+	position: relative;
+	padding-bottom: 40px;
+	top:-100px;
+	background-color: white;
+}
+
+h1{
+	padding-top: 5rem; 
+	padding-right: 1rem;
+	padding-left: 4rem;
+   font-size: 50px;
+	font-weight: 800;
+}
+
+h2{
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.navbar .btn-default{
+	background-image:linear-gradient(to right ,#99ff33,#f6d365, #fda085);
+	border-radius: 10px;
+	
+}
+.navbar .btn-default:hover {
+ transition: all 1s ease;
+}
+
+.para1{
+	position: relative;
+	top: 4rem;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.align{
+display: flex;
+justify-content: space-around;
+}
+.c_latestThings{
+	background-color: 	#F9F9F9;
+}
+
+.latestPostHeading{
+	text-align: center;
+}
+
+#img_web{
+	display: block;
+}
+
+#img_mob{
+	display: none;
+}
+
+.clubsNames{
+text-align: center;
+}
+
+#clubConatiner{
+	display: flex;
+	flex-direction: row;
+}
+
+#clubRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#c6,#c7,#c8,#c9{
+	height: auto;
+	width: 23%;
+	margin-left: 1rem;
+	text-align: center;
+	
+}
+.ho:hover{
+	box-shadow: 2px 2px 1px 2px gray;
+}
+
+#c6 .container{
+	background-image: linear-gradient(to right,rgba(0, 50, 212, 1),rgba(209, 51, 255, 1));
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+#c7 .container{
+background-image: linear-gradient(138deg,#f6d365, #fda085,#f6d365);
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+#c8 .container{
+background-image: linear-gradient(138deg, #ff6544,#ff33ae);
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+#c9 .container{
+	background-image: linear-gradient(138deg,#f1726c,#ffaa00);
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+h4{
+	margin-top: 1rem;
+	text-align: left;
+}
+.a_margin{
+	padding: 1rem;
+	text-align: left;
+}
+.last{
+	background: #F9F9F9;
+	margin-top: 4rem;
+}
+
+.aboutus{
+	text-align: center;
+   
+}
+.p_last{
+	margin-top: 3rem;
+	font-size: 20px;
+	text-align: center;
+padding-bottom: 3rem;
+}
+
+.dflex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.last_container{
+	background: #eee;
+	margin-top: 7rem;
+min-height: 400px;
+	margin-bottom: 1px;
+}
+.c1_2,.c2_2{
+	width: 25%;
+height: auto;
+position: relative;
+top: -7rem;
+margin:1rem;
+}
+.arrow{
+	padding-right: 10px;
+	padding-bottom: 25px;
+}
+.c1_2{
+	background-image: linear-gradient(to right,#ff6544,#ff33ae);
+}
+.c2_2{
+	background-image:linear-gradient(to right, rgba(70, 211, 255, 1),#fda085, #f6d365);
+}
+
+.plast{
+	margin-top: 1rem;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 4rem; 
+	padding-left: 6px;
+}
+.meet_team{
+	padding-left: 4px;
+	color: white;
+	font-size: 30px;
+}
+.acolor{
+	color:gray ;
+}
+.text-center a{
+	align-self: center;
+
+}
+.d_flex_last{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.c10,.c11,.c11{
+	width: 30%;
+	margin-left: 1rem;
+}
+
+
+@media screen and (max-width:780px) {
+	h1{
+		padding-top: 2.5rem;
+		font-size: 35px;
+
+	}
+	h2{
+		padding-top: 2rem;
+	}
+	.para1{
+		top: 1rem;
+	}
+
+	#rowMine{
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+
+	}
+	
+
+	#c3{
+min-width: 270px;
+	position: relative;
+		top: -6rem;
+		margin-left: 1px;
+	}
+
+	#c4{
+		min-width:270px;
+		position: relative;
+		top: -4rem;
+		margin-left: 1px;
+	}
+	#c5{
+		min-width: 270px;
+		position: relative;
+		top: -2rem;
+		margin-left: 1px;
+	}
+	#img_web{
+		display: none;
+	}
+	#img_mob{
+		display: block;
+	}
+
+
+	#clubRow{
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+
+	#c6,#c7,#c8,#c9{
+		margin-top: 1rem;
+		width: auto; 
+		margin-left: 1rem;
+		margin-right: 1rem;
+
+	}
+
+	.dflex{
+		display: grid;
+	grid-template-rows: 1fr 1fr;
+	}
+
+
+  .c1_2,.c2_2{
+  	width:auto;
+  }
+
+
+  .d_flex_last{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .c10,.c11,.c11{
+  	width: auto;
+  }
+  .text-center img{
+  	padding-bottom: 5px;
+  }
+
+
+}
